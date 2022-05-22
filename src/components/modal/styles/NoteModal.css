@@ -1,0 +1,56 @@
+.note-modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	pointer-events: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.714);
+	opacity: 0;
+	transition: 0.5s;
+	z-index: 100;
+}
+
+.note-modal__content {
+	width: 300px;
+	min-height: 200px;
+	margin: 10px;
+	padding: 20px;
+	background: lightgreen;
+	transform: scale(0.5);
+	transition: all 0.5s;
+	margin-bottom: 150px;
+	box-shadow: rgba(14, 28, 2, 0.315) 6px 6px 3px;
+}
+
+.note-modal.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.note-modal__content.active {
+	transform: scale(1.5);
+}
+
+/* Content */
+
+.note-modal__title {
+	display: flex;
+	justify-content: space-between;
+	hyphens: auto;
+}
+
+.note-modal__title-h1 {
+	padding-right: 10px;
+	color: black;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.note-modal__body {
+	min-height: 100px;
+	margin-top: 20px;
+	color: black;
+	transition: 1s;
+}

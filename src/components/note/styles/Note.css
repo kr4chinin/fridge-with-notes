@@ -1,0 +1,103 @@
+.note {
+	position: static;
+	width: 300px;
+	min-height: 200px;
+	margin: 10px;
+	padding: 20px;
+	background: lightgreen;
+	transition: 1s;
+}
+
+.note:hover {
+	transition-duration: 0.6s;
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 7px;
+}
+
+.note.completed {
+	width: 300px;
+	min-height: 200px;
+	margin: 10px;
+	padding: 20px;
+	background: rgba(144, 238, 144, 0.623);
+}
+
+.note__title {
+	display: flex;
+	justify-content: space-between;
+	hyphens: auto;
+}
+
+.note__title-h1 {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	padding-right: 10px;
+	transition: 1s;
+}
+
+.note__title-h1.completed {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.note__body {
+	cursor: pointer;
+	min-height: 100px;
+	margin-top: 20px;
+	color: black;
+	transition: 1s;
+}
+
+.note__body.completed {
+	color: gray;
+	cursor: default;
+}
+
+.note__date {
+	color: black;
+	transition: 1s;
+}
+
+.note__date.completed {
+	color: gray;
+}
+
+.note-btns {
+	display: flex;
+}
+
+.note-btn--complete {
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	width: 25px;
+	height: 25px;
+	transform: translateY(0);
+}
+
+.note-btn--complete:hover {
+	transform: translateY(4px);
+	transition-duration: 0.35s;
+}
+
+.note-btn--complete.completed {
+	display: none;
+}
+
+.note-btn--delete {
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	width: 25px;
+	height: 25px;
+	transform: translateY(0);
+}
+
+.note-btn--delete:hover {
+	transform: translateY(4px);
+	transition-duration: 0.35s;
+}
+
+.test-modal {
+	background-color: bisque;
+}

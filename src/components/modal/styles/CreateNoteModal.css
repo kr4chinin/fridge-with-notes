@@ -1,0 +1,156 @@
+.modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	pointer-events: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.714);
+	opacity: 0;
+	transition: 0.5s;
+	z-index: 100;
+}
+
+.modal__content {
+	width: 350px;
+	height: 270px;
+	padding: 10px;
+	transform: scale(0.5);
+	transition: all 0.5s;
+	margin-bottom: 150px;
+	border-radius: 25px;
+	background-color: white;
+	border: solid 3px rgba(0, 0, 0, 0.615);
+}
+
+.modal.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.modal__content.active {
+	transform: scale(1);
+}
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-title {
+	width: 250px;
+	height: 40px;
+	padding-left: 10px;
+	margin-top: 20px;
+	transition: 0.5s;
+	border: transparent;
+	background: lightgreen;
+	color: black;
+}
+
+.input-title:hover {
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 4px;
+}
+
+.input-body {
+	width: 250px;
+	height: 80px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 20px;
+	transition: 0.5s;
+	border: transparent;
+	background: lightgreen;
+	color: black;
+	resize: none;
+}
+
+.input-body:hover {
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 4px;
+}
+
+.btn-create-note {
+	cursor: pointer;
+	border: transparent;
+	border-radius: 25px;
+	padding-bottom: 21px;
+	padding-top: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+	background: #c3c5af;
+	margin-top: 20px;
+	transition: 0.5s;
+}
+
+.btn-create-note:hover {
+	background-color: #c2c4a7;
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 7px;
+}
+
+/* Content */
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-title {
+	width: 250px;
+	height: 40px;
+	padding-left: 10px;
+	margin-top: 20px;
+	transition: 0.5s;
+	border: transparent;
+	background: lightgreen;
+	color: black;
+}
+
+.input-title:hover {
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 4px;
+}
+
+.input-body {
+	width: 250px;
+	height: 80px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 20px;
+	transition: 0.5s;
+	border: transparent;
+	background: lightgreen;
+	color: black;
+	resize: none;
+}
+
+.input-body:hover {
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 4px;
+}
+
+.btn-create-note {
+	cursor: pointer;
+	border: transparent;
+	border-radius: 25px;
+	padding-bottom: 21px;
+	padding-top: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+	background: #c3c5af;
+	margin-top: 20px;
+	transition: 0.5s;
+}
+
+.btn-create-note:hover {
+	background-color: #c2c4a7;
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 7px;
+}

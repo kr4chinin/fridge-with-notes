@@ -1,0 +1,69 @@
+@import '../assets/fonts/IncosolataRegular.css';
+
+* {
+	box-sizing: border-box;
+	font-family: 'Incosolata', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.global-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.sort-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.search-sort {
+	border: transparent;
+	width: 180px;
+	height: 25px;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+.search-sort:hover {
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 4px;
+}
+
+.select-sort {
+	border: transparent;
+	margin-top: 6px;
+	width: 180px;
+	height: 25px;
+	transition: 0.5s;
+}
+
+.select-sort:hover {
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 4px;
+}
+
+.open-modal-btn {
+	cursor: pointer;
+	border: transparent;
+	font-size: medium;
+	border-radius: 25px;
+	padding-bottom: 21px;
+	padding-top: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 140px;
+	height: 65px;
+	font-size: 15px;
+	background: #fbffd1;
+	transition: 0.5s;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+.open-modal-btn:hover {
+	background-color: #f3faae;
+	box-shadow: rgba(14, 28, 2, 0.639) 0 3px 7px;
+}

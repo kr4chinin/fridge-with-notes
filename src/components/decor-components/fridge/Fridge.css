@@ -1,0 +1,79 @@
+.fridge__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 550px;
+	min-height: 100vh;
+	background: #f8f7f7;
+	box-shadow: rgba(14, 28, 2, 0.315) 6px 6px 3px;
+}
+
+.fridge__body-container {
+	display: flex;
+	width: 550px;
+	min-height: 100vh;
+	padding-bottom: 40px;
+}
+
+.fridge__legs-container {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 550px;
+	height: 35px;
+}
+
+.notes-container {
+	width: 480px;
+	display: flex;
+	justify-content: right;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+
+.fridge__head {
+	height: 230px;
+	width: 550px;
+	border-bottom: 3px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.handle--small {
+	height: 100px;
+	width: 20px;
+	margin-left: 50px;
+	background-color: #c4c4c4;
+	box-shadow: rgba(14, 28, 2, 0.639) 2px 2px 1px;
+}
+
+.handle--big-container {
+	width: 70px;
+	display: flex;
+	justify-content: right;
+}
+
+.handle--big {
+	height: 400px;
+	width: 20px;
+	background-color: #c4c4c4;
+	margin-top: 150px;
+	box-shadow: rgba(14, 28, 2, 0.639) 2px 2px 1px;
+}
+
+.fridge__leg {
+	width: 35px;
+	height: 25px;
+	background: #f8f7f7;
+	border: 3px solid transparent;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: rgba(14, 28, 2, 0.315) 6px 0px 3px;
+}

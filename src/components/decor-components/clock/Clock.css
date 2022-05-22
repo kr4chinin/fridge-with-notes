@@ -1,0 +1,111 @@
+.clock__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	width: 400px;
+	height: 120px;
+	border-radius: 20px;
+	background: #c4c4c4;
+	border: 2px solid rgba(0, 0, 0, 0.212);
+}
+
+.clock__body-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.clock__sort {
+	width: 180px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+.clock__legs-container {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 35px;
+	padding-right: 35px;
+	width: 400px;
+	height: 15px;
+}
+
+.clock__leg {
+	height: 15px;
+	width: 25px;
+	background: #c4c4c4;
+	border: 2px solid rgba(0, 0, 0, 0.212);
+	border-top: transparent;
+	border-bottom: transparent;
+}
+
+.fake-btns {
+	display: flex;
+	width: 180px;
+	height: 30px;
+}
+
+.fake-btns-container {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	width: 60px;
+}
+
+.fake-decoration {
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fake-btn.red {
+	height: 12px;
+	width: 12px;
+	background: rgba(255, 0, 0, 0.53);
+}
+
+.fake-btn.green {
+	height: 12px;
+	width: 12px;
+	background: rgba(0, 128, 0, 0.864);
+}
+
+.fake-btn.yellow {
+	height: 12px;
+	width: 12px;
+	background: rgba(255, 255, 0, 0.612);
+}
+
+.line {
+	height: 3px;
+	width: 50px;
+	margin-left: 25px;
+	background: rgba(0, 0, 0, 0.611);
+}
+
+.clock-top-decoration {
+	display: flex;
+	align-items: center;
+}
+
+.clock-top-1 {
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 25px;
+	height: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #9e9d9d;
+}
+
+.clock-top-2 {
+	margin-top: 53px;
+	margin-left: 10px;
+	width: 25px;
+	height: 7px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background: #707070;
+}
