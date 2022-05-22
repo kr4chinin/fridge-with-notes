@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fridge-with-notes/static/css/main.d2930348.css",
+    "main.css": "/fridge-with-notes/static/css/main.80b28ebc.css",
     "main.js": "/fridge-with-notes/static/js/main.7ea51996.js",
     "static/media/Inconsolata-Regular.ttf": "/fridge-with-notes/static/media/Inconsolata-Regular.ed7f6e5be703abdc4a71.ttf",
     "index.html": "/fridge-with-notes/index.html",
-    "main.d2930348.css.map": "/fridge-with-notes/static/css/main.d2930348.css.map",
+    "main.80b28ebc.css.map": "/fridge-with-notes/static/css/main.80b28ebc.css.map",
     "main.7ea51996.js.map": "/fridge-with-notes/static/js/main.7ea51996.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2930348.css",
+    "static/css/main.80b28ebc.css",
     "static/js/main.7ea51996.js"
   ]
 }
