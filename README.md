@@ -12,3 +12,5 @@ your notes even if you closed the page.
  - Search bar
  - Date of creation will be inserted automatically at the bottom of the note
  - Click on note title or note content to open it in full screen
+
+You can check this app live on **GitHub pages** via this link - https://kr4chinin.github.io/fridge-with-notes/.
