@@ -38,6 +38,7 @@
 .note__title-h1.completed {
 	text-decoration: line-through;
 	color: gray;
+	cursor: default;
 }
 
 .note__body {
