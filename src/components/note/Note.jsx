@@ -28,17 +28,11 @@ const Note = ({ note, remove, setModalActive, returnId }) => {
 	}
 
 	return (
-		<div
-			className={
-				isCompleted ? 'note completed' : 'note'
-			}
-		>
+		<div className={isCompleted ? 'note completed' : 'note'}>
 			<div className="note__title">
 				<h1
 					className={
-						isCompleted
-							? 'note__title-h1 completed'
-							: 'note__title-h1'
+						isCompleted ? 'note__title-h1 completed' : 'note__title-h1'
 					}
 					onClick={handleOpenNoteModal}
 				>
@@ -61,22 +55,12 @@ const Note = ({ note, remove, setModalActive, returnId }) => {
 				</div>
 			</div>
 			<div
-				className={
-					isCompleted
-						? 'note__body completed'
-						: 'note__body'
-				}
+				className={isCompleted ? 'note__body completed' : 'note__body'}
 				onClick={handleOpenNoteModal}
 			>
 				{note.body}
 			</div>
-			<div
-				className={
-					isCompleted
-						? 'note__date completed'
-						: 'note__date'
-				}
-			>
+			<div className={isCompleted ? 'note__date completed' : 'note__date'}>
 				{note.date}
 			</div>
 		</div>

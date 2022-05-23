@@ -1,7 +1,7 @@
 export const getNotes = () => {
 	let values = []
 	let noteParams = []
-	
+
 	let keysArray = Object.keys(localStorage).filter(
 		el => el.length === 5 && /\$\d{4}$/.test(el)
 	)
